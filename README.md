@@ -9,6 +9,8 @@
 
 ![](tomie_sample.png)
 
+##### ©Junji Ito
+
 - 이미지 → 공포 만화 스타일 변환
 - 흑백 기반 고대비 이미지 생성
 - Canny Edge를 활용한 날카로운 윤곽선 표현
@@ -33,6 +35,7 @@ python main.py
 | 원본 이미지            | 변환 결과                     |
 | ---------------------- | ----------------------------- |
 | ![](images/beauty.jpg) | ![](results/tomie_beauty.jpg) |
+| @周仙仙耶              |
 
 👉 특징:
 
