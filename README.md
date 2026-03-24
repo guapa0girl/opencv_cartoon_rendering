@@ -7,6 +7,8 @@
 
 ## 📌 주요 기능
 
+![](tomie_sample.png)
+
 - 이미지 → 공포 만화 스타일 변환
 - 흑백 기반 고대비 이미지 생성
 - Canny Edge를 활용한 날카로운 윤곽선 표현
@@ -30,14 +32,14 @@ python main.py
 
 | 원본 이미지            | 변환 결과                     |
 | ---------------------- | ----------------------------- |
-| ![](images/face.jpg)   | ![](results/tomie_face.jpg)   |
-| ![](images/animal.jpg) | ![](results/tomie_animal.jpg) |
+| ![](images/beauty.jpg) | ![](results/tomie_beauty.jpg) |
 
 👉 특징:
 
 - 얼굴 이미지에서 매우 효과적으로 작동
 - 명암 대비가 큰 이미지일수록 결과가 좋음
 - 윤곽선이 뚜렷할수록 만화 느낌이 잘 살아남
+- tomie를 닮음...
 
 ---
 
@@ -45,6 +47,8 @@ python main.py
 
 | 원본 이미지               | 변환 결과                        |
 | ------------------------- | -------------------------------- |
+| ![](images/face.jpg)      | ![](results/tomie_face.jpg)      |
+| ![](images/animal.jpg)    | ![](results/tomie_animal.jpg)    |
 | ![](images/landscape.jpg) | ![](results/tomie_landscape.jpg) |
 
 👉 문제점:
@@ -84,4 +88,4 @@ python main.py
 - 손으로 그린 만화 스타일을 완전히 재현하기는 어려움
 - 조명이 어둡거나 대비가 낮은 이미지에서는 성능 저하
 - 배경이 복잡한 경우 노이즈가 많이 발생
-- 인물 이미지에 최적화되어 있으며 풍경 이미지에서는 효과가 제한적
+- (토미에를 닮은)인물 이미지에 최적화되어 있으며 풍경 이미지에서는 효과가 제한적
